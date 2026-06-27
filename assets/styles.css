@@ -348,6 +348,18 @@ footer { padding: 40px; border-top: 1px solid rgba(255,255,255,0.05); }
 .footer-links a:hover { color: var(--electric); }
 .footer-bottom { max-width: 1100px; margin: 28px auto 0; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-size: 0.76rem; color: var(--muted); }
 
+/* ── KREDYT „STRONĘ ZAPROJEKTOWAŁA" (logo Inyss Studio w stopce) ── */
+.footer-credit {
+  max-width: 1100px; margin: 18px auto 0; padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  flex-wrap: wrap;
+}
+.footer-credit span { font-size: 0.74rem; color: rgba(148,163,184,0.7); }
+.footer-credit a { display: inline-flex; align-items: center; opacity: 0.88; transition: opacity 0.2s; }
+.footer-credit a:hover { opacity: 1; }
+.footer-credit img { height: 50px; width: auto; display: block; }
+
 /* ── PASEK SOCIAL PROOF (pod hero) ── */
 .proof-strip { border-top: 1px solid rgba(34,211,238,0.08); border-bottom: 1px solid rgba(34,211,238,0.08); padding: 46px 40px; }
 .proof-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
@@ -383,4 +395,3 @@ footer { padding: 40px; border-top: 1px solid rgba(255,255,255,0.05); }
   html { scroll-behavior: auto; }
   .bubble { animation: none; opacity: 0; }
 }
-
