@@ -20,6 +20,26 @@
 .nav-links a{font-size:1.22rem !important;font-weight:500;letter-spacing:0.01em;color:#94a3b8;text-decoration:none;transition:color 0.2s;white-space:nowrap}
 .nav-links a:hover,.nav-links a.active{color:#22d3ee}
 @media(max-width:820px){.nav-logo svg{height:52px !important}.nav-links{margin-left:0}.nav-links a{font-size:1.1rem !important;text-align:center}}
+/* FORMULARZ — inline, niezależne od cache/wersji styles.css */
+.form-wrap{max-width:720px;margin:0 auto}
+.contact-form{background:rgba(255,255,255,0.04);border:1px solid rgba(34,211,238,0.15);border-radius:24px;padding:40px;display:flex;flex-direction:column;gap:22px}
+.contact-form .form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-form .form-group{display:flex;flex-direction:column;gap:9px}
+.contact-form .form-group label{font-size:1rem;font-weight:600;color:#cbd5e1}
+.contact-form .form-group input,.contact-form .form-group select,.contact-form .form-group textarea{background:rgba(255,255,255,0.04);border:1px solid rgba(34,211,238,0.15);border-radius:12px;padding:14px 16px;font-size:1.02rem;color:#f8fafc;font-family:'Inter',sans-serif;transition:border-color 0.2s,background 0.2s;width:100%}
+.contact-form .form-group input::placeholder,.contact-form .form-group textarea::placeholder{color:rgba(148,163,184,0.6)}
+.contact-form .form-group input:focus,.contact-form .form-group select:focus,.contact-form .form-group textarea:focus{outline:none;border-color:#22d3ee;background:rgba(34,211,238,0.06)}
+.contact-form .form-group select{cursor:pointer}
+.contact-form .form-group select option{background:#0a1628;color:#f8fafc}
+.contact-form .form-group textarea{resize:vertical;min-height:130px}
+.contact-form .form-submit-btn{border:none;cursor:pointer;align-self:flex-start;margin-top:4px}
+.contact-form .hidden-field{display:none !important}
+.form-status{font-size:0.95rem;line-height:1.5;min-height:1.2em}
+.form-status.success{color:#22d3ee}
+.form-status.error{color:#f87171}
+@media(max-width:820px){.contact-form{padding:28px 22px}.contact-form .form-row{grid-template-columns:1fr}}
+/* GLOBALNY ROZMIAR CZCIONKI */
+html{font-size:112.5%}
 </style>
 </head>
 <body>
@@ -117,13 +137,13 @@
         <div class="ic">📱</div>
         <h3>WhatsApp / SMS</h3>
         <p>Najszybszy sposób kontaktu — odpisujemy zwykle tego samego dnia.</p>
-        <a href="tel:+48000000000" class="value">+48 ___ ___ ___</a>
+        <a href="tel:+48669161332" class="value">+48 669 161 332</a>
       </div>
       <div class="contact-card">
         <div class="ic">📩</div>
         <h3>E-mail</h3>
         <p>Napisz, jeśli wolisz dłuższą wiadomość albo chcesz dostać PDF ze 100 zastosowaniami.</p>
-        <a href="mailto:kontakt@wodnaharmonia.pl" class="value">kontakt@wodnaharmonia.pl</a>
+        <a href="mailto:maksymilian.wadelski@gmail.com" class="value">maksymilian.wadelski@gmail.com</a>
       </div>
       <div class="contact-card">
         <div class="ic">📅</div>
