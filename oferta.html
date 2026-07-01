@@ -32,7 +32,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
-<link rel="stylesheet" href="assets/oferta-tailwind.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#0a1628',
+          teal: '#0e7490',
+          electric: '#22d3ee',
+          muted: '#94a3b8',
+          card: 'rgba(255,255,255,0.04)',
+          cardhover: 'rgba(255,255,255,0.07)',
+          bordersoft: 'rgba(34,211,238,0.15)',
+          bordersofthover: 'rgba(34,211,238,0.3)'
+        },
+        fontFamily: {
+          serif: ['Playfair Display', 'Georgia', 'serif']
+        }
+      }
+    }
+  }
+</script>
 </head>
 <body>
 
